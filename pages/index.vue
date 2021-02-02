@@ -1,27 +1,15 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
+      <!-- <Logo /> -->
+      <img src="/Logo.svg" alt="">
       <h1 class="title">
-        d3
+        Year13 d3 POC 
       </h1>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+       <nuxt-link to="/d3">
+       POC
+       </nuxt-link>
       </div>
     </div>
   </div>
@@ -42,6 +30,7 @@ export default {}
 }
 
 .title {
+  padding: 10px 0;
   font-family:
     'Quicksand',
     'Source Sans Pro',
@@ -54,7 +43,7 @@ export default {}
     sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 25px;
   color: #35495e;
   letter-spacing: 1px;
 }
@@ -68,6 +57,10 @@ export default {}
 }
 
 .links {
-  padding-top: 15px;
+  font-weight: 300;
+  font-size: 42px;
+  color: #526488;
+  word-spacing: 5px;
+  padding-bottom: 15px;
 }
 </style>

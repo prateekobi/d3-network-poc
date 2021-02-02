@@ -5,6 +5,9 @@
 </template>
 
 <style>
+body {
+  background:#000;
+}
 html {
   font-family:
     'Source Sans Pro',

@@ -1,6 +1,6 @@
 <template>
   <div>
-          <d3-network :net-nodes="nodes" :net-links="links" :options="options" />
+    <d3-network :net-nodes="nodes" :net-links="links" :options="options" />
   </div>
 </template>
 
@@ -15,9 +15,9 @@ export default {
   data () {
     return {
       nodes: [
-        { id: 1, name: 'my node 1' },
-        { id: 2, name: 'my node 2' },
-        { id: 3, _color:'orange' },
+        { id: 1, name: 'Passion' },
+        { id: 2, name: 'Preference' },
+        { id: 3, name: 'Explore' , _color:'orange' },
         { id: 4 },
         { id: 5 },
         { id: 6 },
@@ -35,7 +35,9 @@ export default {
         { sid: 5, tid: 8 },
         { sid: 3, tid: 8 },
         { sid: 7, tid: 9 },
-        { sid: 9, tid: 1, _color: 'darkgreen'}
+        { sid: 9, tid: 1, _color: 'darkgreen'},
+        { sid: 6, tid: 1 },
+        { sid: 6, tid: 2 }
       ],
       options:
       {
