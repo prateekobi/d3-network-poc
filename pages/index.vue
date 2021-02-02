@@ -4,7 +4,7 @@
       <!-- <Logo /> -->
       <img src="/Logo.svg" alt="">
       <h1 class="title">
-        Year13 d3 POC 
+        D3 POC
       </h1>
       <div class="links">
        <nuxt-link to="/d3">
