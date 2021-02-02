@@ -1,7 +1,16 @@
 <template>
+<div>
     <div>
        <dee-three />
     </div>
+    <div class="row text-center">
+      <div class="col-12 mx-auto">
+        <nuxt-link to='/'>
+            Back
+        </nuxt-link>
+      </div>
+    </div>
+</div>
 </template>
 
 <script>
@@ -14,6 +23,12 @@ export default {
 }
 </script>
 
-<style lang='scss' scoped>
+<style scoped>
+
+a {
+    font-size: 18px;;
+    color: #FFF !important;
+    text-align: center;
+}
 
 </style>
