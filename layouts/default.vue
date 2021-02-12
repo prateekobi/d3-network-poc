@@ -6,7 +6,7 @@
 
 <style>
 body {
-  background:#000;
+  background:#eee;
 }
 html {
   font-family:
@@ -25,6 +25,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  height: 100%;
 }
 
 *,

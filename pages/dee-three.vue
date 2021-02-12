@@ -3,13 +3,13 @@
     <div>
        <dee-three />
     </div>
-    <div class="row text-center">
-      <div class="col-12 mx-auto">
-        <nuxt-link to='/'>
-            Back
-        </nuxt-link>
-      </div>
-    </div>
+<!--    <div class="row text-center">-->
+<!--      <div class="col-12">-->
+<!--        <nuxt-link to='/'>-->
+<!--            Back-->
+<!--        </nuxt-link>-->
+<!--      </div>-->
+<!--    </div>-->
 </div>
 </template>
 
